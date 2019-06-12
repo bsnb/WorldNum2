@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WorldNum2</string>
+    <string name="query">请输入国家或区号</string>
+    <string name="title">国际区号查询</string>
+    <string name="root_fail_text">请输入国家或区号</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_foreign">国际区号表</string>
+    <string name="result">查询结果为</string>
+</resources>
