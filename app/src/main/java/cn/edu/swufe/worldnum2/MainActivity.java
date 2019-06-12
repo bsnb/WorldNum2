@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                             twoFragment = TwoFragment.newInstance();
                         }
                         replaceFragment(twoFragment);
-                        unreadMessages.setVisibility(View.GONE);
                         break;
                     case R.id.bb_menu_timeline:
                         if (null == threeFragment) {

@@ -12,11 +12,12 @@ public class TwoFragment  extends Fragment {
     public static TwoFragment newInstance() {
         return new TwoFragment();
     }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         LinearLayout layout=new LinearLayout(getActivity());
-        layout.setBackgroundResource(R.color.colorAccent);
+        layout.setBackgroundResource(R.color.green);
         return layout;
     }
 }
