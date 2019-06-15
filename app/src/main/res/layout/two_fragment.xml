@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoFragment">
+
+    <TextView
+        android:id="@+id/txtlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="今天吃什么？"
+        android:textSize="35sp"
+        />
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="26dp"
+        android:gravity="center"
+        android:hint="请输入你想吃的食物，用逗号分开" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="55dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@mipmap/p1" />
+
+</RelativeLayout>

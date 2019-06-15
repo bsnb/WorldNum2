@@ -68,28 +68,6 @@ public class MainFragment extends Fragment{
 
     }
 
-//    private void openConfig() {
-//        String num = numtext.getText().toString();
-//        Intent config1 = new Intent(getActivity(), ConfigActivity.class);
-//        config1.putExtra("num", num);
-//        startActivityForResult(config1, 1);
-//
-//    }
-
-//    public void onClick(View btn) {
-//        String num = numtext.getText().toString();
-//        if (num.length() > 0) {
-//            if (btn.getId() == R.id.search_chose_btn1) {
-//                openConfig();
-//            } else {
-//                openConfig();
-//            }
-//        } else {
-//            Toast.makeText(getActivity(), getResources().getString(R.string.root_fail_text), Toast.LENGTH_SHORT).show();
-//        }
-//
-//    }
-
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);

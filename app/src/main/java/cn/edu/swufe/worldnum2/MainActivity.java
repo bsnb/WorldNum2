@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         // 可以用以下三种方式来设置颜色.
         mBottomBar.mapColorForTab(0, ContextCompat.getColor(this, R.color.colorPrimary));
         mBottomBar.mapColorForTab(1, ContextCompat.getColor(this, R.color.colorAccent));
-        mBottomBar.mapColorForTab(2, ContextCompat.getColor(this, R.color.green));
+        mBottomBar.mapColorForTab(2, ContextCompat.getColor(this, R.color.colorPrimaryDark));
 
     }
 

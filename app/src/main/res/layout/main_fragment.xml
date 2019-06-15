@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/search_chose_btn1"
         android:onClick="onClick"
-        android:text="国外"
+        android:text="查询"
         />
 
 
